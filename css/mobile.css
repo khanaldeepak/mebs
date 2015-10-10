@@ -1,0 +1,78 @@
+﻿@media only screen and (max-width: 480px) {
+body{
+font-size:0.8em;}
+.mainheader{
+position:absolute;
+}
+.logo{
+width:100%;
+/*background:blue;*/
+}
+.homeinfo{
+width: 98%;
+    min-height: 200px;
+    padding: 1%;
+    text-align: justify;
+    /* margin: auto; */
+    margin-left: 0%;
+	}
+.quote{
+width:93%;
+margin: 1%;
+padding:1% 2%;
+box-shadow: 1px 2px 25px rgba(160, 160, 160, 0.4);
+color: #5D89C9;
+border-radius: 15px;
+border:1px solid #5D89C9;
+}
+.threehalf{
+width:98%;
+padding:1%;
+margin:1% 0%;
+text-align:center;
+box-shadow: 1px 2px 25px rgba(160, 160, 160, 0.4);
+position:relative;
+}
+.half{
+width:99%;
+background:white;
+margin:1% 0%;
+padding:0.5%;
+}
+.quater{
+width:98%;
+padding:1%;
+margin:1% 0%;
+text-align:center;
+}
+.footerinfo {
+    display:none;
+}
+.sidenav{
+width:100%;
+margin: 0%;
+color: #5D89C9;
+border-radius: 15px;
+}
+.leftcontainer {
+    width: 98%;
+    padding: 1%;
+    text-align: justify;
+    /* margin: auto; */
+    margin-left: 0%;
+}
+img.margin_2_r.float_l {
+    width: 100%;
+}
+.servicenav li{
+width: 29%;
+text-align: center;
+list-style:none;
+display:inline-block;
+background:#333333;
+padding:1%;
+margin:1% 1% -0.6% 0%;
+}
+
+
+}

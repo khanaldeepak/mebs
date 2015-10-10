@@ -1,0 +1,132 @@
+﻿/*
+			**********************************************************************************
+			**********************************************************************************
+			**	Script By:  Deepak Khanal													**
+			**	Script: Dynamic Responsive Image Slider with PHP							**
+			**  File: sliderstyle.css (stylesheet)											**
+			**  Version: 1.0.1																**
+			**	JS Library: jquery-2.1.4.min.js												**
+			**	JS Plugin:  Cycle 2 plugin(jquery.cycle2.min.js) from http://malsup.com/	**
+			**  Read instruction on README.md for more information.							**
+			**********************************************************************************
+			**********************************************************************************
+*/
+/*Slide Image and caption*/
+.cycle-slideshow img{
+	width:100%;
+	min-width:960px;
+	/*Image Height*/
+	height:450px;
+	border-radius: 10px;
+}
+
+.cycle-slideshow {
+	background:#FFFFFF;
+    width: 96%;
+    display: block;
+    position: relative;
+    margin-right:  auto;
+    overflow: hidden;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border: 11px solid #FFFFFF;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-top: 40px;
+    margin-bottom: 1%;
+}
+.slide{
+	display:block;
+	position:relative;
+	width:100%;
+}
+.caption{
+	width:100%;
+	background:#0B352F;
+	opacity:0.9;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	display:block;
+	position:absolute;
+	/*for bottom display bottom:20px	for right display right:0px 	for left display left:0px*/
+	bottom:7px;
+	padding:25px;
+	z-index:999;
+	box-sizing:border-box;
+}
+.caption h3{
+	text-transform:uppercase; 
+	text-shadow: 2px 2px #ff0000;
+	color:#FFFFFF; 
+	/*font-size: .9em;*/ 
+	letter-spacing: .1em;
+	padding-bottom:10px;
+	text-align:left!important;
+}
+.caption p{
+	color:#FFFFFF; 
+	font-size: .9em; 
+	letter-spacing: .1em;
+	padding-bottom:10px;
+}
+.caption p a {
+	text-decoration:none;
+	color:#FFFFFF;
+	font-size: .8em;
+	border:1px solid #FFFFFF;
+	padding: 2px 8px;
+}
+.caption p a:hover{
+	background:#FFFFFF;
+	color:#333333;
+}
+/*Slider Image and caption ends*/
+/*Control style Starts*/
+.cycle-next{
+	width:0; height:0;
+	display:block;
+	position:absolute;
+	top:20px; right:20px;
+	border-left:25px solid #FFFFFF;
+	border-top:20px solid transparent;
+	border-bottom:20px solid transparent;
+	z-index:99999;
+	cursor:pointer;
+}
+.cycle-prev{
+	width:0; height:0;
+	display:block;
+	position:absolute;
+	top:140px; right:20px;
+	border-right:25px solid #FFFFFF;
+	border-top:20px solid transparent;
+	border-bottom:20px solid transparent;
+	z-index:99999;
+	cursor:pointer;
+}
+.cycle-pager{
+	text-indent:-99999999px;
+	white-space:nowrap;
+	width:30px;
+	text-align:center;
+	position:absolute;
+	display:block;
+	top:50px;
+	right:17px;
+	z-index:99999;
+	color:#FFFFFF;
+}
+.cycle-pager span{
+	width:31px;
+	height:3px;
+	display:block;
+	background:rgba(255,255,255,0.50);
+	transform:rotate(-39deg);
+	-webkit-transform:rotate(-39deg);
+	margin:10px 0;
+	cursor:pointer;
+}
+.cycle-pager .cycle-pager-active{
+	background:#FFFFFF;
+}
+
+/*Control style Ends*/
