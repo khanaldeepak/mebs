@@ -5,11 +5,11 @@
 <div class="bodycont bd_rd_10">
 <!--About School Starts-->
 <div class="fullwith bd_rd_10">
-	<li class="pad_tb_1 marginlt-3 oneoffive graybg center br-tl">All About The<br/> School</li>
-	<li class="pad_tb_1 oneoffive graybg center">Why You Should<br/> Study With Us</li>
-	<li class="pad_tb_1 oneoffive graybg center">Education And<br/> Student Experience</li>
-	<li class="pad_tb_1 oneoffive graybg center">Alumni And Its<br/> Donors</li>
-	<li class="pad_tb_1 oneoffive graybg center br-tr">Latest School<br/> News & Events</li>
+	<a href="overview.php"><li class="pad_tb_1 marginlt-3 oneoffive graybg center br-tl">All About The<br/> School</li></a>
+	<a href="overview.php"><li class="pad_tb_1 oneoffive graybg center">Why You Should<br/> Study With Us</li></a>
+	<a href="overview.php"><li class="pad_tb_1 oneoffive graybg center">Education And<br/> Student Experience</li></a>
+	<a href="overview.php"><li class="pad_tb_1 oneoffive graybg center">Alumni And Its<br/> Donors</li></a>
+	<a href="overview.php"><li class="pad_tb_1 oneoffive graybg center br-tr">Latest School<br/> News & Events</li></a>
 </div>
 <!--About School Ends-->
 <!--Our Services Starts-->

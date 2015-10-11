@@ -647,26 +647,11 @@ margin:1% 1% -0.6% 0%;
 /*background:rgb(28, 97, 172);*/
 }
 
-.servicenav li a{
+.servicenav a{
+color:#FFFFFF;
+}
+.servicenav a:hover{
 color:red;
-}
-.base:hover{
-background:rgb(28, 97, 172);
-display:inline-block;
-position:relative;
-width:10%;
-}
-.base:before{
-
-border-top:15px solid rgb(28, 97, 172);
-border-left:79px solid transparent;
-border-right:79px solid transparent;
-content:"";
-height:0;
-left:0;
-position:absolute;
-bottom:-15px;
-width:0;
 }
 
 #servicenavi ul li:hover {

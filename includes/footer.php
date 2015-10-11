@@ -6,9 +6,9 @@
 <nav class="footernav">
 	<ul>
 		<li><a href="index.php">Home</a></li>
-		<li><a href="overview.php">About Us</a></li>
-		<li><a href="webdesign.php">Our Services</a></li>
-		<li><a href="portfolio.php">Portfolios</a></li>
+		<li><a href="privacy.php">PRIVACY POLICY</a></li>
+		<li><a href="terms.php">TERMS AND CONDITIONS</a></li>
+		<li><a href="feedbacks.php">FEEDBACKS</a></li>
 		<li><a href="proposal.php">Request a Quote</a></li>
 		<li><a href="contact.php">Contact Us</a></li>
 	</ul>

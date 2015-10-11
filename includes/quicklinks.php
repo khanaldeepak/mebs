@@ -11,7 +11,7 @@
 			<li><a href="#">Adult Learners</a></li>
 			<li><a href="#">Alumni Chapters</a></li>
 			<li><a href="#">Alumni Events</a></li>
-			<li><a href="#">Athletics</a></li>
+			<li><a href="athletics.php">Athletics</a></li>
 			<li><a href="#">Campus Life At a Glance</a></li>
 			<li><a href="#">Campus Recreation</a></li>
 			<li><a href="#">Campus Safety & Security</a></li>

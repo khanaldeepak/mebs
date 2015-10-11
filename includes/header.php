@@ -60,8 +60,8 @@ $(function() {
 	<nav class="members">
 		<ul>
 			<li><a href="index.php">Home</a></li> |   
-			<li><a href="index.php">Contact Us</a></li> |
-			<li><a href="index.php">A - Z Index</a></li> |
+			<li><a href="contact.php">Contact Us</a></li> |
+			<li><a href="azindex.php">A - Z Index</a></li> |
 			<li><a href="index.php">Student Login</a></li> |
 			<li><a href="index.php">Staff Login</a></li> 
 		</ul>
